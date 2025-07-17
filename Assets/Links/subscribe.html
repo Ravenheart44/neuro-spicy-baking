@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neurodivergent Baking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/home/raven/smb-rav/Magazine/Assets/Styles/subscribe.css" type="text/css">
+  
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">🧁 Neurodivergent Baking</div>
+      <ul>
+        <li><a href="/home/raven/smb-rav/Magazine/neurobaking.html">Home</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/recipes.html">Recipes</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/comingsoon.html">Mood Bakes</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/submissions.html">Submissions</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/stories.html">Stories</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/Blog.html">Blog</a> </li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/comingsoon.html">Resources</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/subscribe.html">Subscribe 💌</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <form action="https://formspree.io/f/mgvygkpv" method="POST">
+      <h1>🌈 Subscribe to Sweet Updates</h1>
+
+      <label for="full-name">Full Name</label>
+      <input id="full-name" name="full-name" placeholder="Jane Dough" />
+
+      <label for="email-address">Email Address</label>
+      <input id="email-address" name="email-address" type="email" required placeholder="you@example.com" />
+
+      <label for="favorite-baking-item">Favorite Baking Item</label>
+      <input id="favorite-baking-item" name="favorite-baking-item" placeholder="Cookies, cakes, pies..." />
+
+      <label>Topics of Interest</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="topics" value="product-updates" /> Product Updates</label>
+        <label><input type="checkbox" name="topics" value="blog-posts" /> Blog Posts</label>
+        <label><input type="checkbox" name="topics" value="promotions" /> Promotions</label>
+        <label><input type="checkbox" name="topics" value="events" /> Events</label>
+      </div>
+
+      <label for="email-frequency">Email Frequency</label>
+      <select id="email-frequency" name="email-frequency" required>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+        <option value="occasionally">Occasionally</option>
+      </select>
+
+      <label for="referral-source">How Did You Hear About Us?</label>
+      <input id="referral-source" name="referral-source" placeholder="Instagram, friend, web search..." />
+
+      <button type="submit">Subscribe</button>
+    </form>
+  </main>
+
+</body>
+</html>

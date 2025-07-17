@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Article</title>
+    
+<link rel="stylesheet" href="/home/raven/smb-rav/Magazine/Assets/Styles/submit.css" type="text/css">
+
+  
+</head>
+<body>
+<header>
+    <nav>
+      <div class="logo">🧁 Neurodivergent Baking</div>
+      <ul>
+        <li><a href="/home/raven/smb-rav/Magazine/neurobaking.html">Home</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/recipes.html">Recipes</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/comingsoon.html">Mood Bakes</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/submissions.html">Submissions</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/stories.html">Stories</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/Blog.html">Blog</a> </li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/comingsoon.html">Resources</a></li>
+        <li><a href="/home/raven/smb-rav/Magazine/Assets/Links/subscribe.html">Subscribe 💌</a></li>
+      </ul>
+    </nav>
+  </header>
+    <h1>Submit Your Article</h1>
+<form
+  action="https://formspree.io/f/xyzjreaz"
+  method="POST"
+>
+        <label for="articleTitle">Article Title:</label><br>
+        <input type="text" id="articleTitle" name="articleTitle" size="50" required><br><br>
+
+        <label for="articleContent">Article Content:</label><br>
+        <textarea id="articleContent" name="articleContent" rows="15" cols="80" required></textarea><br><br>
+
+        <label for="authorName">Your Name (Optional):</label><br>
+        <input type="text" id="authorName" name="authorName" size="30"><br><br>
+        <label for="email">Your Email (Optional):</label><br>
+        <input type="email" id="email" name="email" size="30"><br><br>
+        <input type="submit" value="Submit Article">
+    </form>
+
+    <div id="popup" class="popup" style="display: none;">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Submission Received!</h2>
+        <p>🧁 Thank you for your submission!</p>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <script src="/home/raven/smb-rav/Magazine/Assets/Scripts/popup.js"></script>
+
+</body>
+</html>
